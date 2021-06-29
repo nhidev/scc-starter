@@ -5,7 +5,6 @@ import CTASection from "../../components/CTASection";
 import BlockImage from "../../components/BlockImage";
 import ClimbingSection from "../../components/ClimbingSection";
 import { IntroVideoSection } from "../../components/IntroVideoSection";
-import OpeningTimes from "../../components/OpeningTimes";
 import FacilitiesSection from "../../components/FacilitiesSection";
 
 const MainStyled = styled.main`
@@ -39,7 +38,6 @@ const Main = () => {
         bgImage={"/images/poster.jpg"}
       />
       <FacilitiesSection />
-      <OpeningTimes />
     </MainStyled>
   );
 };
